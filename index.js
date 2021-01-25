@@ -61,7 +61,7 @@ function url_maker(start_date, stop_date){
     // Step 2: Spit out our data URL for the given time frame
     //
  
-    return `https://familyinfocenter.brighthorizons.com/remote/v1/events?direction=range&earliest_event_time=${start_date}&latest_event_time=${stop_date}&num_events=300&client=dashboard`;
+    return `https://mybrightday.brighthorizons.com/remote/v1/events?direction=range&earliest_event_time=${start_date}&latest_event_time=${stop_date}&num_events=300&client=dashboard`;
 }
 
 
@@ -113,7 +113,7 @@ function get_data(start_date, end_date){
 //
 async function get_media(key, attachment){
     
-    let url = `https://familyinfocenter.brighthorizons.com/remote/v1/obj_attachment?obj=${key}&key=${attachment}&download=true`;
+    let url = `https://mybrightday.brighthorizons.com/remote/v1/obj_attachment?obj=${key}&key=${attachment}&download=true`;
 
     var link = document.createElement("a");
     link.setAttribute("href", url);
