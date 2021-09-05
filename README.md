@@ -1,7 +1,7 @@
 # tadpoles-media-downloader
 Hack method to download all of your media from tadpoles.com
 
-***INSTRUCTIONS BELOW***
+***INSTRUCTIONS BELOW AS WRITTEN BY JWALLY***
 
 Quick script I wrote to download all pictures and videos out of tadpoles. To use, do the following:
 
