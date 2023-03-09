@@ -7,7 +7,7 @@ Quick script I wrote to download all pictures and videos out of tadpoles. To use
 
 1.) Copy the following string of text:
 
-javascript:var js = document.createElement('script');js.src = 'https://cdn.jsdelivr.net/gh/vanderjs/tadpoles-media-downloader/index.js';document.querySelectorAll('head')[0].appendChild(js)
+javascript:var js = document.createElement('script');js.src = '[https://cdn.jsdelivr.net/gh/vanderjs/tadpoles-media-downloader/index.js](https://cdn.jsdelivr.net/gh/hzdtctc/tadpoles-media-downloader@master/index.js)';document.querySelectorAll('head')[0].appendChild(js)
 
 2.) Open google chrome (might work with other browsers, but not really tested)
 
