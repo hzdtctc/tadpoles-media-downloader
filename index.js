@@ -261,7 +261,7 @@ function main(){
         //
         // In the 'all_events' array, look for objects where the attachment attr is not empty
         //
-        document.all_media = document.all_events.filter(function(x){return x.attachments.length > 0});
+        document.all_media = document.all_events.filter(function(x){return x.attachments.width > 0});
         
         
         //
