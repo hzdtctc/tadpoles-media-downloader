@@ -25,7 +25,7 @@ javascript:
 
 8.) Paste the text you copied earlier so your address bar now looks like this:
 
-javascript:var js = document.createElement('script');js.src = 'https://cdn.jsdelivr.net/gh/vanderjs/tadpoles-media-downloader/index.js';document.querySelectorAll('head')[0].appendChild(js)
+javascript:var js = document.createElement('script');js.src = '[https://cdn.jsdelivr.net/gh/vanderjs/tadpoles-media-downloader/index.js](https://cdn.jsdelivr.net/gh/hzdtctc/tadpoles-media-downloader@master/index.js)';document.querySelectorAll('head')[0].appendChild(js)
 
 9.) Hit ENTER
 
